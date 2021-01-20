@@ -1,0 +1,12 @@
+@use "./base/variables" as *;
+@use "./base/reset";
+@use "./base/fonts";
+@use "./base/mixins" as *;
+
+@import "../../icons/style";
+
+.square {
+  position: absolute;
+  background-color: purple;
+  transition: all 300ms;
+}
